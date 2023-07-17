@@ -74,10 +74,9 @@ nav li {
 
 main {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 85px auto;
 }
 .theams-container {
-  margin-top: 85px;
   display: flex;
   align-items: center;
 }
@@ -98,4 +97,40 @@ main {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+.theams-features {
+  color: #ff900e;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#list-title {
+  color: #121111;
+  font-weight: 700;
+}
+
+.facts-box {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.card-box {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  padding: 20px 20px;
+ text-align: center;
+}
+
+/* media quary */
+@media screen and (max-width: 576px) {
+  .theams-container {
+    flex-direction: column;
+  }
+  .theams-img-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }
