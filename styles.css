@@ -70,3 +70,32 @@ nav li {
   margin-top: 40px;
   width: 100%;
 }
+/* theam styles */
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.theams-container {
+  margin-top: 85px;
+  display: flex;
+  align-items: center;
+}
+.theams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.theams-content {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.theams-title {
+  width: 468px;
+  color: var(--dark-03, #727272);
+  font-family: Work Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
